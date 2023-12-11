@@ -1,0 +1,36 @@
+*{margin:0; padding:0; }
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background: #4066fa;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+}
+.navbar-logo{
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-menu{
+    display:flex;
+    list-style-type: none;
+    gap: 30px;
+    margin: 0;
+    align-items: center;
+}
+
+.navbar-menu li a{
+    text-decoration: none;
+    color: white;
+}
+.helloWord{
+
+    background: #40faea;
+    padding: 0px 16px;
+    margin-bottom: 0px;
+}
+
+.helloWord-menu{
+    display:block;
+    gap: 50px;
+}
